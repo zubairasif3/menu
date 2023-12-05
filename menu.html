@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <button class="popup_menu_button popup_menu_button--hoverable">
+                <span class="popup_menu_button__icon">
+                    <span></span>
+                    <span></span>
+                </span>
+                <span class="popup_menu_button__text"></span>
+            </button>
+            <div class="menu_div">
+                
+                <div class="popup_menu">
+            
+                    <span class="popup_menu_body_overlay"></span>
+                    <span class="popup_menu_body_bg"></span>
+                    <nav class="popup_main_menu">
+                        <div>
+                            <div class="popup_main_menu_div">
+                                <ul class="menu_ul">
+                                    <li class="menu-item">
+                                        <a href="#" class="item_conent_ancher" data-target="#donate-content">
+                                            <span class="menu-item__count"></span><span class="menu-item__name">Donate</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#" class="item_conent_ancher" data-target="#newsletter-content">
+                                            <span class="menu-item__count"></span><span class="menu-item__name">Newsletter</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#" class="item_conent_ancher" data-target="#about-content">
+                                            <span class="menu-item__count"></span><span class="menu-item__name">About</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="#about-staff-content">
+                                                    <span class="menu-item__name">Staff</span>
+                                                </a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#about-contact-content">
+                                                    <span class="menu-item__name">Contact</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <address class="popup_menu_bottom">
+                                An editorially independent anthropology magazine of the Wenner-Gren Foundation <br />
+                                &amp; University of Chicago Pres
+                                <div class="popup_menu_bottom_links">
+                                    <a href="#" class="item_conent_ancher" data-target="#privacy-policy">Privacy Policy</a>,
+                                    <a href="#" class="item_conent_ancher" data-target="#terms-use">Terms of Use</a>
+                                </div>
+                            </address>
+                        </div>
+                    </nav>
+                    
+                </div>
+                <div class="mobile-back-menu">
+                    <div class="back_button">
+                        <a href="#" id="back-to-menu-ancher"><i class="fas fa-arrow-left"></i> Back to Menu</a>
+                        <div class="mobile_item-heading"></div>
+                    </div>
+                </div>
+                <div class="nav_items-content-tab">
+                    <div class="nav_items-content" id="donate-content">
+                        <div class="text-content">
+                            <div class="tag">DONATE</div>
+                            <div class="top-text">You might not know that as a non-profit, we rely on donations from readers like you. We don't accept advertising and we will never have a paywall. Whatever you can give, no matter how much, makes a difference and helps us grow.</div>
+                            <div class="donate-label-tab">
+                                <div class="donate-label">CHOOSE FREQUENCY</div>
+                                <div class="donate-label-flex">
+                                    <a href="#" class="donate-label-btn active">Monthly  </a>
+                                    <a href="#" class="donate-label-btn">Annual</a>
+                                    <a href="#" class="donate-label-btn">One-time</a>
+                                </div>
+                            </div>
+                            <div class="donate-label-tab">
+                                <div class="donate-label">CHOOSE AN AMOUNT</div>
+                                <div class="donate-label-flex">
+                                    <a href="#" class="donate-label-btn">$5 per month  </a>
+                                    <a href="#" class="donate-label-btn active">$10 per month</a>
+                                    <a href="#" class="donate-label-btn">Other</a>
+                                </div>
+                            </div>
+                            <div class="donate-label-tab">
+                                <div class="donate-label">ENTER YOUR EMAIL</div>
+                                <form action="#">
+                                    <input type="email" name="eamil" class="email_input" placeholder="Email" required>
+                                    <input type="submit" class="donate-label-btn" value="Donate">
+                                </form>
+                            </div>
+                        </div>
+                        <address class="popup_menu_bottom">
+                            Wenner-Gren Foundation for Anthropological Research, Inc., 655 Third Avenue, 23rd Floor New York, NY 10017 USA
+                            <div class="popup_menu_bottom_links">
+                                <a href="#">Privacy Policy</a>,
+                                <a href="#">Terms of Use</a>
+                            </div>
+                            <div class="popup_menu_bottom_links">
+                                Website by 
+                                <a href="https://www.studioairport.nl/" target="_blank">Studio Airport</a> &#x2022; <a href="https://september.digital/" target="_blank">September</a>
+                            </div>
+                        </address>
+                    </div>
+                    <div class="nav_items-content" id="newsletter-content">
+                        <div class="content">
+                            <video src="newsletter.mp4" class="video-div" autoplay loop></video>
+                            <div class="tag">SAPIENS NEWSLETTER</div>
+                            <div class="text">Don’t miss out on anthropology’s insights about our world.</div>
+                            <div class="text">With our newsletter in your inbox every Friday, you’ll be able to stay on top of SAPIENS’ newest stories and get context to learn about what’s happening in the field of anthropology.</div>
+                            <div class="text">The newsletter not only has links to recently published stories but also the magazine’s deep archive organized by themes. You’ll also get links to anthropologists in the news, insights into the editorial team’s work, social media conversations, and trivia about human biology, culture, history, and language.</div>
+                        </div>
+                    </div>
+                    <div class="nav_items-content" id="about-content">
+                        <div class="content">
+                            <div class="tag">ABOUT SAPIENS</div>
+                            <div class="text">SAPIENS is a digital magazine about everything human, told through the stories of anthropologists.</div>
+                            <div class="text">In January 2016, we launched SAPIENS with the aim of bringing together the voices of scholars who are eager to share the findings, ideas, and perspectives of anthropology with a broad global readership. As people who study other people, anthropologists look to the past, present, and future to assemble vital observations on what it means to be human. This work matters. Yet all too often their research remains inaccessible to public audiences.</div>
+                            <div id="about-staff-content">
+                                <div class="tag">STAFF</div>
+                                <div class="about-staff-section about-staff-content">
+                                    <ol>
+                                        <li class="about-staff-member">
+                                           <div class="about-staff-member_name">
+                                              Bridget Alex											
+                                           </div>
+                                           <div class="about-staff-member_position">
+                                              Archaeology/Bioanthropology Editor											
+                                           </div>
+                                           <div class="data-staff-member-height">
+                                              <div class="about-staff-member_image">
+                                                 <span class="img img--cover">
+                                                         <img src="https://www.sapiens.org/app/uploads/2023/01/Bridget-Alex-1024x683.jpg" class="lazyautosizes lazyloaded">
+                                                 </span>												
+                                              </div>
+                                              <button class="about-staff-member_button"></button>
+                                              <div class="about-staff-member_bio">
+                                                 <p>Bridget Alex is an anthropologist and writer living in Somerville, Massachusetts. She earned her Ph.D. in archaeology and human evolutionary biology from Harvard University. Supported by the National Science Foundation, the Fulbright Program, and other awards, her research focused on the spread of <em>Homo sapiens</em> and extinction of other humans, such as Neanderthals, over the past 200,000 years. Prior to joining SAPIENS, Bridget taught anthropology and science communication at the California Institute of Technology, Pasadena City College, and Harvard. Her pop-science stories have appeared in outlets such as <em>Discover</em>,<em> Science</em>,<em> Archaeology</em>,<em> Atlas Obscura, </em>and <em>Smithsonian.</em> Follow her on Twitter <a href="https://twitter.com/bannelia">@bannelia</a>.</p>
+                                              </div>
+                                           </div>
+                                        </li>
+                                        <li class="about-staff-member">
+                                           <div class="about-staff-member_name">
+                                              Bridget Alex											
+                                           </div>
+                                           <div class="about-staff-member_position">
+                                              Archaeology/Bioanthropology Editor											
+                                           </div>
+                                           <div class="data-staff-member-height">
+                                              <div class="about-staff-member_image">
+                                                 <span class="img img--cover">
+                                                         <img src="https://www.sapiens.org/app/uploads/2023/01/Bridget-Alex-1024x683.jpg" class="lazyautosizes lazyloaded">
+                                                 </span>												
+                                              </div>
+                                              <button class="about-staff-member_button"></button>
+                                              <div class="about-staff-member_bio">
+                                                 <p>Bridget Alex is an anthropologist and writer living in Somerville, Massachusetts. She earned her Ph.D. in archaeology and human evolutionary biology from Harvard University. Supported by the National Science Foundation, the Fulbright Program, and other awards, her research focused on the spread of <em>Homo sapiens</em> and extinction of other humans, such as Neanderthals, over the past 200,000 years. Prior to joining SAPIENS, Bridget taught anthropology and science communication at the California Institute of Technology, Pasadena City College, and Harvard. Her pop-science stories have appeared in outlets such as <em>Discover</em>,<em> Science</em>,<em> Archaeology</em>,<em> Atlas Obscura, </em>and <em>Smithsonian.</em> Follow her on Twitter <a href="https://twitter.com/bannelia">@bannelia</a>.</p>
+                                              </div>
+                                           </div>
+                                        </li>
+                                    </ol>
+                                    <ol start="3">
+                                        <li class="about-staff-member">
+                                           <div class="about-staff-member_name">
+                                              Bridget Alex											
+                                           </div>
+                                           <div class="about-staff-member_position">
+                                              Archaeology/Bioanthropology Editor											
+                                           </div>
+                                           <div class="data-staff-member-height">
+                                              <div class="about-staff-member_image">
+                                                 <span class="img img--cover">
+                                                    <img src="https://www.sapiens.org/app/uploads/2023/01/Bridget-Alex-1024x683.jpg" class="lazyautosizes lazyloaded">
+                                                 </span>												
+                                              </div>
+                                              <button class="about-staff-member_button"></button>
+                                              <div class="about-staff-member_bio">
+                                                 <p>Bridget Alex is an anthropologist and writer living in Somerville, Massachusetts. She earned her Ph.D. in archaeology and human evolutionary biology from Harvard University. Supported by the National Science Foundation, the Fulbright Program, and other awards, her research focused on the spread of <em>Homo sapiens</em> and extinction of other humans, such as Neanderthals, over the past 200,000 years. Prior to joining SAPIENS, Bridget taught anthropology and science communication at the California Institute of Technology, Pasadena City College, and Harvard. Her pop-science stories have appeared in outlets such as <em>Discover</em>,<em> Science</em>,<em> Archaeology</em>,<em> Atlas Obscura, </em>and <em>Smithsonian.</em> Follow her on Twitter <a href="https://twitter.com/bannelia">@bannelia</a>.</p>
+                                              </div>
+                                           </div>
+                                        </li>
+                                        <li class="about-staff-member">
+                                           <div class="about-staff-member_name">
+                                              Bridget Alex											
+                                           </div>
+                                           <div class="about-staff-member_position">
+                                              Archaeology/Bioanthropology Editor											
+                                           </div>
+                                           <div class="data-staff-member-height">
+                                              <div class="about-staff-member_image">
+                                                 <span class="img img--cover">
+                                                         <img src="https://www.sapiens.org/app/uploads/2023/01/Bridget-Alex-1024x683.jpg" class="lazyautosizes lazyloaded">
+                                                 </span>												
+                                              </div>
+                                              <button class="about-staff-member_button"></button>
+                                              <div class="about-staff-member_bio">
+                                                 <p>Bridget Alex is an anthropologist and writer living in Somerville, Massachusetts. She earned her Ph.D. in archaeology and human evolutionary biology from Harvard University. Supported by the National Science Foundation, the Fulbright Program, and other awards, her research focused on the spread of <em>Homo sapiens</em> and extinction of other humans, such as Neanderthals, over the past 200,000 years. Prior to joining SAPIENS, Bridget taught anthropology and science communication at the California Institute of Technology, Pasadena City College, and Harvard. Her pop-science stories have appeared in outlets such as <em>Discover</em>,<em> Science</em>,<em> Archaeology</em>,<em> Atlas Obscura, </em>and <em>Smithsonian.</em> Follow her on Twitter <a href="https://twitter.com/bannelia">@bannelia</a>.</p>
+                                              </div>
+                                           </div>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div id="about-contact-content">
+                                <div class="tag">CONTACT</div>
+                                <div class="top-text">For general inquiries, feedback, and corrections, please contact Dr. Chip Colwell, editor-in-chief, editor•sapiens.org</div>
+                                <div class="top-text">For social media, publicity, or community inquiries, please contact Sophie Muro, digital editor, sophie•sapiens.org</div>
+                                <div class="top-text">
+                                    Wenner-Gren Foundation<br>
+                                    655 Third Avenue<br>
+                                    23rd Floor<br>
+                                    New York, NY, 10017 USA
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav_items-content" id="privacy-policy">
+                        <div class="content">
+                            <div class="heading">PRIVACY POLICY</div>
+                            <div class="text">Last modified 2/27/2023</div>
+                            <div class="title">Introduction</div>
+                            <div class="text">This privacy policy (“Privacy Policy”) applies to the personal information we collect about you through the website operated and made available by the Wenner-Gren Foundation for Anthropological Research, Incorporated (“Wenner-Gren,” “we,” “us,” and “our”) located at www.wennergren.org and any other websites under our control, including the website for the online publication SAPIENS located at www.sapiens.org, and all digital assets contained, or offered therein (collectively, the “Services”). This Privacy Policy applies regardless of media platform (e.g., computer, smartphone, tablet, etc.) used to access our Services.</div>
+                            <div class="text">Your privacy is important to us, and this Privacy Policy is designed to make clear our intentions and approach to the collection and use of Personal Information in connection with our Services and the choices you have.</div>
+                            <div class="text">This Privacy Policy is integrated into our Terms of Use.</div>
+                        </div>
+                    </div>
+                    <div class="nav_items-content" id="terms-use">
+                        <div class="content">
+                            <div class="heading">TERMS OF USE</div>
+                            <div class="text">Last modified:  February 15, 2023</div>
+                            <div class="title"><b>1. Welcome and Consent to Terms</b></div>
+                            <div class="text">The Wenner-Gren Foundation for Anthropological Research, Incorporated (“Wenner-Gren”, “we”, “us,” or “our”) is a 501(c)(3) tax-exempt organization dedicated to the advancement of anthropology throughout the world. Wenner-Gren operates certain websites at the sapiens.org URL (“SAPIENS”). These Terms and Conditions of Use (“Terms of Use”) apply to SAPIENS, regardless of media platform (e.g., computer, smartphone, tablet, etc.). Please note that Wenner-Gren may operate other websites, such as at the wennergren.org URL, which have their own terms and conditions of use.</div>
+                            <div class="text">By accessing and/or using SAPIENS, including, without limitation, viewing any materials, or other content on SAPIENS, subscribing or otherwise availing yourself of any content or services made available on SAPIENS, you acknowledge that you have read and agree to abide and be bound by these Terms of Use and consent to the collection and use of data as set forth in our Privacy Policy. <b>If you do not agree to these Terms of Use and the Privacy Policy, please refrain from using SAPIENS.</b> </div>
+                            <div class="text">If you have questions about SAPIENS, please contact us by email at editor•sapiens.org, or by mail at our main office at: SAPIENS, c/o The Wenner-Gren Foundation, 655 Third Avenue, 23rd Floor, New York, NY 10017.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
